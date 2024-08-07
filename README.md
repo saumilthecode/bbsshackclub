@@ -9,6 +9,7 @@
 
 ## Features
 
+
 - **Astro Build**: Optimized for fast and efficient static site generation.
 - **Tailwind CSS**: Customizable and responsive design with Tailwind CSS.
 - **Shadcn UI**: Integrated components for a modern UI experience.
