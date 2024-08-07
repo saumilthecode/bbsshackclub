@@ -27,6 +27,7 @@ export default defineConfig({
     ],
     prefetch: true,
   },
+  output: 'static',  // Add this line for static output
   integrations: [
     react(),
     tailwind({
