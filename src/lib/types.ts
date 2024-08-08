@@ -113,3 +113,4 @@ export type SocialObjects = {
   active: boolean;
   linkTitle: string;
 }[];
+

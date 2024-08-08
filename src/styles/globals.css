@@ -78,6 +78,16 @@
   }
 }
 
+/* Add hidden and visible classes */
+.hidden {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.visible {
+  opacity: 1;
+}
+
 h1 {
   @apply scroll-m-20 text-4xl font-bold lg:text-5xl tracking-tight pt-2;
 }
