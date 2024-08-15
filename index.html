@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-bs-theme="light" lang="en">
+<html data-bs-theme="dark" lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -7,25 +7,28 @@
     <title>HackClub</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Agbalumo&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/swiper-icons.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/Navbar-Right-Links-Dark-icons.css">
     <link rel="stylesheet" href="assets/css/Projects-Grid-images.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider-1.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider-swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
 </head>
 
-<body style="background: linear-gradient(#242638 20%, rgb(36,38,56) 36%, rgb(36,38,56) 62%, #242638 89%);color: rgb(33, 37, 41);">
-    <nav class="navbar navbar-expand-md py-3" style="color: rgba(33,37,41,0);background: rgba(33,37,41,0);" data-bs-theme="dark">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 5C3 3.89543 3.89543 3 5 3H15C16.1046 3 17 3.89543 17 5V13C17 14.1046 16.1046 15 15 15H12.7808L12.903 15.4887L13.7071 16.2929C13.9931 16.5789 14.0787 17.009 13.9239 17.3827C13.7691 17.7563 13.4045 18 13 18H7.00003C6.59557 18 6.23093 17.7563 6.07615 17.3827C5.92137 17.009 6.00692 16.5789 6.29292 16.2929L7.09706 15.4887L7.21925 15H5C3.89543 15 3 14.1046 3 13V5ZM8.7713 12C8.75657 11.9997 8.74189 11.9997 8.72725 12H5V5H15V12H11.2728C11.2582 11.9997 11.2435 11.9997 11.2288 12H8.7713Z" fill="currentColor"></path>
-                    </svg></span><span>BBSS Hack Club</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-5">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="Projects.html">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#">Workshops</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#">Our People</a></li>
-                </ul><a class="btn btn-primary ms-md-2" role="button" href="#">Join Us</a>
-            </div>
+<body style="background: linear-gradient(#242638 20%, rgb(36,38,56) 36%, rgb(36,38,56) 62%, #242638 89%);color: rgb(33, 37, 41);"><nav class="navbar navbar-expand-md py-3" style="color: rgba(33,37,41,0);background: rgba(33,37,41,0);" data-bs-theme="dark">
+    <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3 5C3 3.89543 3.89543 3 5 3H15C16.1046 3 17 3.89543 17 5V13C17 14.1046 16.1046 15 15 15H12.7808L12.903 15.4887L13.7071 16.2929C13.9931 16.5789 14.0787 17.009 13.9239 17.3827C13.7691 17.7563 13.4045 18 13 18H7.00003C6.59557 18 6.23093 17.7563 6.07615 17.3827C5.92137 17.009 6.00692 16.5789 6.29292 16.2929L7.09706 15.4887L7.21925 15H5C3.89543 15 3 14.1046 3 13V5ZM8.7713 12C8.75657 11.9997 8.74189 11.9997 8.72725 12H5V5H15V12H11.2728C11.2582 11.9997 11.2435 11.9997 11.2288 12H8.7713Z" fill="currentColor"></path>
+                </svg></span><span>BBSS Hack Club</span></a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-5"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div id="navcol-5" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="Projects.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">Workshops</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">Our People</a></li>
+            </ul><a class="btn btn-primary ms-md-2" role="button" href="#">Join Us</a>
         </div>
-    </nav>
+    </div>
+</nav>
     <section class="py-4 py-xl-5"><a class="navbar-brand" href="#" style="color: rgb(137,173,244);"></a>
         <div class="container">
             <div class="text-center p-4 p-lg-5">
@@ -39,11 +42,13 @@
     </section>
     <footer class="text-center">
         <div class="container text-muted py-4 py-lg-5">
-            <p class="mb-0"><span style="color: rgb(203, 212, 245);">Made by </span><a href="https://github.com/saumilthecode/"><span style="color: rgb(203, 212, 245);">Saumil</span></a><span style="color: rgb(203, 212, 245);">. Hosted on </span><a href="https://github.com/saumilthecode/bbsshackclub"><span style="color: rgb(203, 212, 245);">GitHub</span></a></p>
+            <p class="mb-0"><span style="color: rgb(203, 212, 245);">Made by </span><a href="https://github.com/saumilthecode/"><span style="color: rgb(203, 212, 245);">Saumil</span></a><span style="color: rgb(203, 212, 245);">. See our code on </span><a href="https://github.com/saumilthecode/bbsshackclub"><span style="color: rgb(203, 212, 245);">GitHub</span></a></p>
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/Simple-Slider-swiper-bundle.min.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
 </body>
 
 </html>
